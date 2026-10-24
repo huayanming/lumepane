@@ -7,19 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>LumePane 软件更新</description>
     <language>zh-Hans</language>
     <item>
-      <title>LumePane 9.8.0</title>
-      <pubDate>Sat, 24 Oct 2026 15:19:10 +0000</pubDate>
-      <sparkle:version>9.8.0</sparkle:version>
-      <sparkle:shortVersionString>9.8.0</sparkle:shortVersionString>
+      <title>LumePane 9.8.1</title>
+      <pubDate>Sat, 24 Oct 2026 16:15:37 +0000</pubDate>
+      <sparkle:version>9.8.1</sparkle:version>
+      <sparkle:shortVersionString>9.8.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:descriptionFormat="plain-text"><![CDATA[新增
-• 文件助手支持批量选择、批量分析、复制全部摘要和导出 Markdown。
-• 新增 3 文件批量 selftest。]]></description>
+      <description sparkle:descriptionFormat="plain-text"><![CDATA[修复
+• 截图面板在未授权时显示「授权屏幕录制」，直接触发系统授权请求。
+• 魔丸入口先打开控制台，再切换面板，避免首次点击时通知丢失。
+• 授权后仍失败时提示重新打开应用。]]></description>
       <sparkle:fullReleaseNotesLink>https://lumepane.com/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-      <enclosure url="https://lumepane.com/dl/LumePane-9.8.0.dmg" length="11425107" type="application/octet-stream" sparkle:edSignature="O7eqY9qJpZFIkgl0CwYYMawhKUVzIkO59nVlfUeiz8Cu47kW7T/w2dZo/TVhYye6KahVNY2ficclrRO+uvR/CA=="></enclosure>
+      <enclosure url="https://lumepane.com/dl/LumePane-9.8.1.dmg" length="11441173" type="application/octet-stream" sparkle:edSignature="DEcjAxKtan5wWyE4KKnYSAZHTYk1rYQKXugKhjP++T6ePAEBwmhT/Z8rUub2ovA4h8qA1ayA2nxB7cyry+GXBw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: hsrzk5WsrQWvFfoC1r+g8+sr+OgLaEMtWRDI7hvmy1HSzk1CsiRhC/r1ickAu1uJgRP4oc/xyFhYsjJc0QU3AQ==
-length: 1476
+edSignature: aPQ/MP82+zwhqLSGiIVqzVhKsKf87MBz3k5yau36eagYjsSq23zwJWvbNHT2GjCVJSEF2MqvMeFB7TMUDPOFDQ==
+length: 1589
 -->
