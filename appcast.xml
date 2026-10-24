@@ -7,20 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>LumePane 软件更新</description>
     <language>zh-Hans</language>
     <item>
-      <title>LumePane 9.8.1</title>
-      <pubDate>Sat, 24 Oct 2026 16:15:37 +0000</pubDate>
-      <sparkle:version>9.8.1</sparkle:version>
-      <sparkle:shortVersionString>9.8.1</sparkle:shortVersionString>
+      <title>LumePane 9.8.2</title>
+      <pubDate>Sat, 24 Oct 2026 16:51:22 +0000</pubDate>
+      <sparkle:version>9.8.2</sparkle:version>
+      <sparkle:shortVersionString>9.8.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:descriptionFormat="plain-text"><![CDATA[修复
-• 截图面板在未授权时显示「授权屏幕录制」，直接触发系统授权请求。
-• 魔丸入口先打开控制台，再切换面板，避免首次点击时通知丢失。
-• 授权后仍失败时提示重新打开应用。]]></description>
+      <description sparkle:descriptionFormat="plain-text"><![CDATA[改进
+• 滚动截图改为自动滚动：框选区域后 3 秒内点一下目标页面，之后自动滚动并拼接。
+• 新增辅助功能权限引导、滚动阶段状态条、权限状态条、完成提示音。
+• 录屏增加实时计时和状态反馈。]]></description>
       <sparkle:fullReleaseNotesLink>https://lumepane.com/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-      <enclosure url="https://lumepane.com/dl/LumePane-9.8.1.dmg" length="11441173" type="application/octet-stream" sparkle:edSignature="DEcjAxKtan5wWyE4KKnYSAZHTYk1rYQKXugKhjP++T6ePAEBwmhT/Z8rUub2ovA4h8qA1ayA2nxB7cyry+GXBw=="></enclosure>
+      <enclosure url="https://lumepane.com/dl/LumePane-9.8.2.dmg" length="11451638" type="application/octet-stream" sparkle:edSignature="UpbjGC0lnl3virM49S9sWDgia6MQgsK87ApLYN7zuK+9GK88MphbeOHk5dXWxU6inqK+5dvdyYquSPDkLqMcCw=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: aPQ/MP82+zwhqLSGiIVqzVhKsKf87MBz3k5yau36eagYjsSq23zwJWvbNHT2GjCVJSEF2MqvMeFB7TMUDPOFDQ==
-length: 1589
+edSignature: lMGMRasiz/tVYlkwWF+a8Hl4mKtyVncqgKQgy4E/UrJIDaXfuF6W/Bh0PNmbGwFZUWIXJic5px//DJoHGl7ZBw==
+length: 1607
 -->

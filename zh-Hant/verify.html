@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://lumepane.com/img/og-site.v901.png">
 <link rel="icon" href="../img/icon.png" type="image/png">
-<link rel="stylesheet" href="../style.css?v=9.8.1-style1">
+<link rel="stylesheet" href="../style.css?v=9.8.2-style1">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"自己驗證","about":"Display Data Channel Command Interface","inLanguage":"zh-Hant","publisher":{"@type":"Organization","name":"LumePane"},"mainEntityOfPage":"https://lumepane.com/zh-Hant/verify.html"}</script>
 </head>
 <body>
@@ -65,8 +65,8 @@ xcrun stapler validate /Applications/LumePane.app
 <p>這個二進位用尼森與海的 Developer ID 簽章，Apple 掃描並公證過，且公證憑據<strong>釘紮</strong>在應用內，因此離線也能驗證。任何被改動過的副本都過不了這三項。</p>
 
 <h2>二、下載的東西完整嗎？</h2>
-<pre><code>shasum -a 256 ~/Downloads/LumePane-9.8.1.dmg
-  b9feada0a9ae5e1e2de2d1ca46ca28799ccbbfd3e652e80d957e4592dfbb1f69</code></pre>
+<pre><code>shasum -a 256 ~/Downloads/LumePane-9.8.2.dmg
+  1eec5d2b9d262d49fbe8fa959c05c473dd2d65be48b641e629f06e40b001d3f7</code></pre>
 <p>同一個值也寫在 Homebrew cask 裡，所以你有<strong>兩個獨立的地方</strong>可以對照：</p>
 <pre><code>brew cat huayanming/tap/lumepane | grep sha256</code></pre>
 <p>如果對不上，<strong>不要執行這個檔案</strong>。</p>
@@ -105,6 +105,6 @@ xcrun stapler validate /Applications/LumePane.app
     <p class="foot-copy">© 2026 尼森与海 · LumePane</p>
   </div>
 </footer>
-<script src="../site.js?v=9.8.1-orb1" defer></script>
+<script src="../site.js?v=9.8.2-orb1" defer></script>
 </body>
 </html>
