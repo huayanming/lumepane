@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://lumepane.com/img/og-site.v901.png">
 <link rel="icon" href="img/icon.png" type="image/png">
-<link rel="stylesheet" href="style.css?v=9.7.0-style1">
+<link rel="stylesheet" href="style.css?v=9.8.0-style1">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Verify it yourself","about":"Display Data Channel Command Interface","inLanguage":"en","publisher":{"@type":"Organization","name":"LumePane"},"mainEntityOfPage":"https://lumepane.com/verify.html"}</script>
 </head>
 <body>
@@ -65,8 +65,8 @@ xcrun stapler validate /Applications/LumePane.app
 <p>The binary is signed with Neeson &amp; Sea's Developer ID, Apple scanned and notarized it, and the notarization ticket is <strong>stapled</strong> to the app so it validates offline. A modified copy fails all three checks.</p>
 
 <h2>2. Did the download arrive intact?</h2>
-<pre><code>shasum -a 256 ~/Downloads/LumePane-9.7.0.dmg
-  fa508820ab2ae959d281959613a322941f27f0137bbd38316ce29b597af35f32</code></pre>
+<pre><code>shasum -a 256 ~/Downloads/LumePane-9.8.0.dmg
+  1a7c106ea3da1d858eb7889309defe8e8519ec3741f723b0a2a6c92e195beec6</code></pre>
 <p>The same value is published in the Homebrew cask, so there are two independent places to compare against:</p>
 <pre><code>brew cat huayanming/tap/lumepane | grep sha256</code></pre>
 <p>If your value differs, <strong>do not run the file</strong>.</p>
@@ -106,6 +106,6 @@ xcrun stapler validate /Applications/LumePane.app
     <p class="foot-copy">© 2026 Neeson &amp; Sea · LumePane · <a href="mailto:support@lumepane.com">support@lumepane.com</a></p>
   </div>
 </footer>
-<script src="site.js?v=9.7.0-orb1" defer></script>
+<script src="site.js?v=9.8.0-orb1" defer></script>
 </body>
 </html>

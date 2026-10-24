@@ -7,20 +7,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>LumePane 软件更新</description>
     <language>zh-Hans</language>
     <item>
-      <title>LumePane 9.7.0</title>
-      <pubDate>Sat, 24 Oct 2026 15:01:52 +0000</pubDate>
-      <sparkle:version>9.7.0</sparkle:version>
-      <sparkle:shortVersionString>9.7.0</sparkle:shortVersionString>
+      <title>LumePane 9.8.0</title>
+      <pubDate>Sat, 24 Oct 2026 15:19:10 +0000</pubDate>
+      <sparkle:version>9.8.0</sparkle:version>
+      <sparkle:shortVersionString>9.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description sparkle:descriptionFormat="plain-text"><![CDATA[修复
-• 滚动截图拼接忽略滚动条与指针所在边缘，避免把滚动条移动误判为内容变化。
-• 无重叠的跳帧不再整块追加，避免长图重复。
-• 新增 16 帧长页面拼接 selftest。]]></description>
+      <description sparkle:descriptionFormat="plain-text"><![CDATA[新增
+• 文件助手支持批量选择、批量分析、复制全部摘要和导出 Markdown。
+• 新增 3 文件批量 selftest。]]></description>
       <sparkle:fullReleaseNotesLink>https://lumepane.com/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-      <enclosure url="https://lumepane.com/dl/LumePane-9.7.0.dmg" length="11404618" type="application/octet-stream" sparkle:edSignature="MaSLcOMNE8DnZqyP4PtWFQMsnJRHQ+vDFfw2+lf+tZadijrKIA1IrKWcuqfsbUS/VOHIT74hwEsls5RKXawcCA=="></enclosure>
+      <enclosure url="https://lumepane.com/dl/LumePane-9.8.0.dmg" length="11425107" type="application/octet-stream" sparkle:edSignature="O7eqY9qJpZFIkgl0CwYYMawhKUVzIkO59nVlfUeiz8Cu47kW7T/w2dZo/TVhYye6KahVNY2ficclrRO+uvR/CA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: XfYL86/ZI7X+PbC2BTUVgHVYUOiWS8BfqOOFOnmnICfTXnUnf4Bp+q3e8TzWyo2nnYteqI4jkksmJhCmu3VtBA==
-length: 1566
+edSignature: hsrzk5WsrQWvFfoC1r+g8+sr+OgLaEMtWRDI7hvmy1HSzk1CsiRhC/r1ickAu1uJgRP4oc/xyFhYsjJc0QU3AQ==
+length: 1476
 -->
