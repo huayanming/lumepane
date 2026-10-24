@@ -7,19 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>LumePane 软件更新</description>
     <language>zh-Hans</language>
     <item>
-      <title>LumePane 9.6.0</title>
-      <pubDate>Sat, 24 Oct 2026 14:29:56 +0000</pubDate>
-      <sparkle:version>9.6.0</sparkle:version>
-      <sparkle:shortVersionString>9.6.0</sparkle:shortVersionString>
+      <title>LumePane 9.7.0</title>
+      <pubDate>Sat, 24 Oct 2026 15:01:52 +0000</pubDate>
+      <sparkle:version>9.7.0</sparkle:version>
+      <sparkle:shortVersionString>9.7.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description sparkle:descriptionFormat="plain-text"><![CDATA[修复
-• 分应用音频在切换系统输出设备后自动重建 tap/aggregate/回放链路，并保留每个应用的音量。
-• 新增真实设备切换 selftest。]]></description>
+• 滚动截图拼接忽略滚动条与指针所在边缘，避免把滚动条移动误判为内容变化。
+• 无重叠的跳帧不再整块追加，避免长图重复。
+• 新增 16 帧长页面拼接 selftest。]]></description>
       <sparkle:fullReleaseNotesLink>https://lumepane.com/CHANGELOG.md</sparkle:fullReleaseNotesLink>
-      <enclosure url="https://lumepane.com/dl/LumePane-9.6.0.dmg" length="11397527" type="application/octet-stream" sparkle:edSignature="oIpPtEf4Ugisi+ncViKBIhtVjt63m9BZQzS60GjwjgA5Az5md9QZT3uXJGfKAlFRFjAS5YGL0FiRGfahGUweAw=="></enclosure>
+      <enclosure url="https://lumepane.com/dl/LumePane-9.7.0.dmg" length="11404618" type="application/octet-stream" sparkle:edSignature="MaSLcOMNE8DnZqyP4PtWFQMsnJRHQ+vDFfw2+lf+tZadijrKIA1IrKWcuqfsbUS/VOHIT74hwEsls5RKXawcCA=="></enclosure>
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +QhLmu09JsB9jJtIQJuZeB/s64LODmMrWdnKwMUmboSyC3j9XEYyndo84YLgZ5Lk0ggJ89Y7gJcmwp+r+l50AA==
-length: 1512
+edSignature: XfYL86/ZI7X+PbC2BTUVgHVYUOiWS8BfqOOFOnmnICfTXnUnf4Bp+q3e8TzWyo2nnYteqI4jkksmJhCmu3VtBA==
+length: 1566
 -->
